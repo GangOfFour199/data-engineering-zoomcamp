@@ -113,8 +113,8 @@ gcloud dataproc jobs submit pyspark \
     --jars=gs://spark-lib/bigquery/spark-3.3-bigquery-0.42.2.jar \
     gs://kestra-de-zoomcamp-bucket99/code/spark_sql_big_query.py \
     -- \
-        --input_green=gs://kestra-de-zoomcamp-bucket99/pq/green/2020/*/ \
-        --input_yellow=gs://kestra-de-zoomcamp-bucket99/pq/yellow/2020/*/ \
+        --input_green=gs://kestra-de-zoomcamp-bucket99/pq/pq/green/2020/*/ \
+        --input_yellow=gs://kestra-de-zoomcamp-bucket99/pq/pq/yellow/2020/*/ \
         --output=de_zoomcamp.reports-2020
 ```
 

@@ -77,8 +77,8 @@ gsutil -m cp -r 06_spark_sql.py gs://kestra-de-zoomcamp-bucket99/code/spark_sql.
 
 Params for the job:
 
-* `--input_green=gs://kestra-de-zoomcamp-bucket99/pq/green/2021/*/`
-* `--input_yellow=gs://kestra-de-zoomcamp-bucket99/pq/yellow/2021/*/`
+* `--input_green=gs://kestra-de-zoomcamp-bucket99/pq/pq/green/2021/*/`
+* `--input_yellow=gs://kestra-de-zoomcamp-bucket99/pq/pq/yellow/2021/*/`
 * `--output=gs://kestra-de-zoomcamp-bucket99/report-2021`
 
 

@@ -101,7 +101,7 @@ gcloud dataproc jobs submit pyspark \
 Upload the script to GCS:
 
 ```bash
-gsutil -m cp -r spark_sql_big_query.py gs://kestra-de-zoomcamp-bucket99/code/06_spark_sql_big_query.py
+gsutil -m cp -r spark_sql_big_query.py gs://kestra-de-zoomcamp-bucket99/code/spark_sql_big_query.py
 ```
 
 Write results to big query ([docs](https://cloud.google.com/dataproc/docs/tutorials/bigquery-connector-spark-example#pyspark)):

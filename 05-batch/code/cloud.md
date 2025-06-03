@@ -87,9 +87,9 @@ Using Google Cloud SDK for submitting to dataproc
 
 ```bash
 gcloud dataproc jobs submit pyspark \
-    --cluster=de-zoomcamp-cluster \
-    --region=europe-west6 \
-    gs://dtc_data_lake_de-zoomcamp-nytaxi/code/06_spark_sql.py \
+    --cluster=dezoomcamp-cluster \
+    --region=europe-west2 \
+    gs://kestra-de-zoomcamp-bucket99/code/spark_sql.py \
     -- \
         --input_green=gs://dtc_data_lake_de-zoomcamp-nytaxi/pq/pq/green/2020/*/ \
         --input_yellow=gs://dtc_data_lake_de-zoomcamp-nytaxi/pq/pq/yellow/2020/*/ \

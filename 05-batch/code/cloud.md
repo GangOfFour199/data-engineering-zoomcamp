@@ -108,8 +108,8 @@ Write results to big query ([docs](https://cloud.google.com/dataproc/docs/tutori
 
 ```bash
 gcloud dataproc jobs submit pyspark \
-    --cluster=de-zoomcamp-cluster \
-    --region=europe-west6 \
+    --cluster=dezoomcamp-cluster \
+    --region=europe-west2 \
     --jars=gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar \
     gs://kestra-de-zoomcamp-bucket99/code/spark_sql_big_query.py \
     -- \

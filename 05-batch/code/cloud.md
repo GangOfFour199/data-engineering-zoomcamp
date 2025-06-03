@@ -115,7 +115,7 @@ gcloud dataproc jobs submit pyspark \
     -- \
         --input_green=gs://kestra-de-zoomcamp-bucket99/pq/green/2020/*/ \
         --input_yellow=gs://kestra-de-zoomcamp-bucket99/pq/yellow/2020/*/ \
-        --output=trips_data_all.reports-2020
+        --output=de_zoomcamp.reports-2020
 ```
 
 There can be issue with latest Spark version and the Big query connector. Download links to the jar file for respective Spark versions can be found at:

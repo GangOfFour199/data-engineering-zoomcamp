@@ -110,7 +110,7 @@ Write results to big query ([docs](https://cloud.google.com/dataproc/docs/tutori
 gcloud dataproc jobs submit pyspark \
     --cluster=dezoomcamp-cluster \
     --region=europe-west2 \
-    --jars=gs://spark-lib/bigquery/spark-3.3-bigquery-latest_2.12.jar \
+    --jars=gs://spark-lib/bigquery/spark-3.3-bigquery-0.42.2.jar \
     gs://kestra-de-zoomcamp-bucket99/code/spark_sql_big_query.py \
     -- \
         --input_green=gs://kestra-de-zoomcamp-bucket99/pq/pq/green/2020/*/ \
